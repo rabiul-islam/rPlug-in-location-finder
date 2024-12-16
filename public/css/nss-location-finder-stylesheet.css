@@ -1,0 +1,166 @@
+#location-finder-pagination-list{
+    display:none;
+}
+.nss_location_finder_wrapper {
+    width: 738px; 
+    margin: 0 auto;
+}
+.crownct_location_locator_post_wrap{
+    background: #0C5934; 
+    margin-bottom:30px;
+    padding: 32px; 
+    margin-left:7px;
+    margin-right:7px;
+}
+.nss_location_finder_filter_panel{
+    text-align: center; 
+    margin-bottom: 56px;
+}
+.nss_select_warp{
+    display:inline-block;
+    position: relative;
+    margin-right:7px;
+}
+.nss_location_finder_filter_panel select{
+    border: 1px solid #0C5934; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%; 
+    text-align: left; 
+    padding: 14px 15px;
+    width: 235px;
+    cursor:pointer;
+    background: linear-gradient(180deg, #E6F7F0 -31.23%, rgba(239, 245, 243, 0) 116.94%);
+    opacity: 0.6;
+    color: #212121;
+}
+.nss_location_finder_filter_panel select:focus-visible{
+    outline:none;
+}
+.spinner {
+    position: absolute;
+    left: 30px;
+    font-size: 6px;
+    top: 8px;
+    width: 100%;
+    text-align: left;
+    opacity: 0.5;
+    display:none;
+}
+
+.crownct_location_locator_post {  
+    background: #fff;
+    border-bottom: 16px solid #109351; 
+    text-align: left; 
+}
+.crownct_location_locator_post .post_details{
+    padding: 60px 0px 40px 55px;
+}
+.crown_card_red_border{
+    border-bottom: 8px solid #F01E29;
+    margin-bottom:8px;
+}
+
+.crownct_location_locator_post .post_details a{
+    padding-bottom:10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px; 
+    align-items: center;
+    letter-spacing: -0.02em; 
+    color: #1E212C;
+    display:block;
+} 
+.crownct_location_locator_post .post_details p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #212121; 
+}
+.nss_post_img {
+    overflow: hidden;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+.nss_post_img img:nth-child(2){
+    width: 110px;
+    margin-left: 260px;
+}
+/*pagination*/
+
+.paginationjs{
+    display: block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    width: 100%;
+    float: left;
+}
+.paginationjs-pages{
+    text-align:center;
+} 
+.paginationjs-pages ul li {
+    list-style: none;
+    display: inline-block; 
+    margin: 0px 4px;
+    transition: all .2s linear;
+    border: 1px solid #E0E0E0;
+    padding: 8px 16px;
+    border-radius: 4px; 
+    background: #fff;
+}
+.paginationjs-pages ul li a {
+    color: #616161;
+}
+.paginationjs-pages ul li.active a {
+    color: #109351; 
+}
+.paginationjs-pages ul li.active {
+    color: #109351;
+    border: 1px solid #109351;    
+}
+.paginationjs-pages ul li.paginationjs-prev, .paginationjs-pages ul li.paginationjs-next{
+    background: #109351; 
+}
+.paginationjs-pages ul li.paginationjs-prev a, .paginationjs-pages ul li.paginationjs-next a{
+    color:#fff;     
+}
+.paginationjs-pages .disabled{
+    display:none;
+}
+
+
+@media only screen and (max-width: 580px) {
+.crownct_location_locator_post_wrap { 
+    padding: 15px;
+    margin-left: 0px; 
+    margin-right: 0px; 
+}
+.nss_location_finder_wrapper {
+    width: 100%;    
+}
+.nss_select_warp{
+    width: 100%;    
+}
+.nss_location_finder_filter_panel select { 
+    margin: 0px 0px 6px 0px;  
+    width: 100%; 
+}
+.nss_post_img { 
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.crownct_location_locator_post .post_details {
+    padding: 20px 0px 0px 10px;
+}
+.crownct_location_locator_post .post_details a { 
+    font-size: 17px; 
+}
+.crownct_location_locator_post .post_details p { 
+    font-size: 17px; 
+}
+}
